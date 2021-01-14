@@ -170,13 +170,13 @@ proxychains bash
 ```
 之后就可以在该终端的所有命令中都使用代理了
 ## 浏览器使用
-~~不会吧，不会吧，不会真有人用树莓派刷网页看视频吧（手动狗头）~~ 
-至于浏览器的配置问题，请[查阅此](http://www.wangchao.info/1316.html)。
-由于笔者只需要命令行的功能作为使用，故未考虑实际浏览器的使用，现在的命令行版本已经满足了笔者的要求。
+~~不会吧，不会吧，不会真有人用树莓派刷网页看视频吧（手动狗头）~~   
+至于浏览器的配置问题，请[查阅此](http://www.wangchao.info/1316.html)。  
+由于笔者只需要命令行的功能作为使用，故未考虑实际浏览器的使用，现在的命令行版本已经满足了笔者的要求。  
 # 致谢及引用
-[1] [Linux使用SSR客户端](https://mikoto10032.github.io/post/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%82%A3%E4%BA%9B%E4%BA%8B/linux%E4%BD%BF%E7%94%A8ssr%E5%AE%A2%E6%88%B7%E7%AB%AF/)
-[2] [安装shadowsocks-python并启用chacha20加密](https://blog.phpgao.com/shadowsocks_chacha20.html)
-[3] [用proxychains无脑设置Linux代理](https://www.chenxublog.com/2020/06/12/proxychains-proxy.html)
+[1] [Linux使用SSR客户端](https://mikoto10032.github.io/post/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%82%A3%E4%BA%9B%E4%BA%8B/linux%E4%BD%BF%E7%94%A8ssr%E5%AE%A2%E6%88%B7%E7%AB%AF/)  
+[2] [安装shadowsocks-python并启用chacha20加密](https://blog.phpgao.com/shadowsocks_chacha20.html)  
+[3] [用proxychains无脑设置Linux代理](https://www.chenxublog.com/2020/06/12/proxychains-proxy.html)  
 # 故事
 笔者想要用Raspberry做一个软路由，同时下载一个Pi-hole准备尝试一下广告过滤器，但事与愿违，可以科学上网的笔记本本应该做一个本地代理，给树莓派提供科学上网的“动力”，但怎么尝试……都以失败告终……
 没法度，只能尝试着给树莓派部署一下SSR使其能够科学上网，虽然这么操作略显繁琐，但最终还是解决了问题并使笔者提前预习了计算机网络的相关知识（虽然课就是选不上）……
