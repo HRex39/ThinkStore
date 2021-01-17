@@ -166,6 +166,10 @@ FTLinstall() {
 sudo bash basic-install.sh
 ```
 
+# 验证 
+看样子是可以成功的……！  
+![Pi-Hole](https://img-blog.csdnimg.cn/202101172255361.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NzA0Nzk5OQ==,size_16,color_FFFFFF,t_70#pic_center)
+
 
 # 引用
 [^1]: [基于树莓派的全能广告屏蔽助手 —— Pi-hole](https://sspai.com/post/58183)
