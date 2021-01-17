@@ -47,6 +47,7 @@ ls
  - 配置config.json
 在这里笔者给出一个样例，大家可以依此进行参考配置
 至于配置什么，这需要由你的服务器来决定
+  
 ```bash
 sudo nano ~/Desktop/ssr/config.json
 ```
@@ -77,6 +78,21 @@ sudo nano ~/Desktop/ssr/config.json
 ```
 至此，config的配置结束。
 如果想了解更加清晰的配置问题，请[点击](http://goldsudo.com/develop/shadowsocks/ssr%E6%9C%8D%E5%8A%A1%E7%AB%AF%E9%85%8D%E7%BD%AE%E8%AF%B4%E6%98%8E%E5%8C%85%E6%8B%AC%E5%A4%9A%E7%94%A8%E6%88%B7%E9%85%8D%E7%BD%AE)。
+
+### 关于chacha20加密：[安装shadowsocks-python并启用chacha20加密](https://blog.phpgao.com/shadowsocks_chacha20.html)  
+**libsodium**
+```bash
+wget https://download.libsodium.org/libsodium/releases/LATEST.tar.gz
+tar zxf LATEST.tar.gz
+cd libsodium*
+./configure
+make && make install
+
+# 修复关联
+echo /usr/local/lib > /etc/ld.so.conf.d/usr_local_lib.conf
+ldconfig
+```
+
 ### 开启SSR
 
 ```bash
